@@ -1,0 +1,63 @@
+
+.main-box {
+	margin: auto;
+	width: 900px;
+	height: 600px;
+
+	display: flex;
+
+}
+
+#repeat {
+  background-image: 
+    repeating-linear-gradient(
+      145deg,
+      lightgrey,
+      lightgrey 5px,
+      aliceblue 8px,
+      aliceblue 5px /* determines size */
+    );
+}
+
+
+
+/*-------------*/
+.box-1 {
+	width: 300px;
+	height: 600px;
+
+	background-color: grey;
+
+	background-image: url("profile_img.png");
+}
+
+
+
+/*-------------*/
+.box-2 {
+
+    width: 870px;
+    height: 400px;
+    border: 5px solid purple;
+    margin-left: 10px;
+    margin-top: -40px;
+}
+
+/*-------------*/
+
+.box2-welcome {
+
+	margin: 100px 0px 20px 350px;
+	background-color: white;
+	font-size: xxx-large;
+
+	font-weight: bold;
+	color: red;
+}
+
+
+.box2-designYour{
+	margin: 0px 0px 20px 350px;
+	background-color: white;
+	font-size: xx-large;
+}
