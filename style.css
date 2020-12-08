@@ -1,0 +1,26 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.container{
+	display: grid;
+	/*grid-template-columns: repeat(3, 1fr);*/
+	/*grid-template-columns: auto auto auto;*/
+	/*grid-template-columns: 1fr 1fr 1fr;*/
+
+
+
+	grid-template-columns: repeat(auto-fit, 20rem);
+
+
+
+	height: 100vh;
+
+	align-items: center;
+	justify-content: center;
+
+}
+
